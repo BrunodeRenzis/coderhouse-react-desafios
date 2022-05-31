@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App-header>.menu-ecommerce{
+  bottom: 0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.menu-ecommerce{
+  width: 100vw;
+  background-color: #93a8ac;
+}
+
+.menu-ecommerce>nav{
+  width: 100%;
+}
+.menu-ecommerce>nav>ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
