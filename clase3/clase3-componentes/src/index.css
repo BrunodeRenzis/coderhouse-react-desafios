@@ -5,20 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  
 }
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
-}
-
-.App-header>.menu-ecommerce{
-  bottom: 0;
+    monospace;
 }
 
 header {
-  position: fixed;
+  position: relative;
   width: 100%;
   top: 0;
   left: 0;
@@ -26,17 +23,6 @@ header {
   font-family: 'Exo 2', sans-serif;
 }
 
-.menu-ecommerce{
-  width: 100vw;
-  background-color: #93a8ac;
-}
-
-.menu-ecommerce>nav{
-  width: 100%;
-}
-.menu-ecommerce>nav>ul{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  
+#root{
+  min-height: 100vh;
 }
