@@ -35,18 +35,26 @@ ion-icon{
   cursor: pointer;
 }
 
+@media only screen and (max-width: 767px) and (min-width: 0px) {  
+  
+
+}
+
 ion-icon:hover{
   animation-name: spin;
   animation-duration: 200ms;
   animation-iteration-count: unset;
   animation-timing-function: linear;
+  
 }
 
 @keyframes spin { 
   from { 
-      transform: rotate(0deg); 
+      transform: rotate(0deg);
+      color: #b0bcaa; 
   } to { 
       transform: rotate(360deg); 
+      color: rgb(255, 255, 255);
   }
 }
 
