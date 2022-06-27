@@ -1,0 +1,17 @@
+.individualItem{
+    border: 3px solid red;
+    width: 30%;
+    height: 20vh;
+    margin: 0 auto;
+    margin-bottom: 1vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.individualItem>img{
+    width: 15vw;
+    height: 10vh;
+    margin: 0 auto;
+}

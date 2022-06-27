@@ -1,0 +1,26 @@
+.itemDetail{
+    display:flex;
+}
+
+.itemDetail>img{
+    width:50%;
+}
+
+#contenedorImagenItem{
+    display: flex;
+    width: 55%;
+    justify-content: flex-start;
+}
+
+#contenedorDescripcionItem{
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedorDescripcionItem>span{
+    width: 100%;
+}
