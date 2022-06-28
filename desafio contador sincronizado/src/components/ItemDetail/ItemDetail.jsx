@@ -2,14 +2,12 @@ import React from 'react'
 import './ItemDetail.css';
 import { CounterApp } from '../Counter/Counter';
 import { useState } from 'react';
-import { Link,useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 const ItemDetail = ({item}) => {
   const [cant,setCant] = useState(0);
-  let navigate = useNavigate();
   const onAdd = (cantidad)=>{
     setCant(cantidad);
     item.stock-=cantidad;
-    navigate('/cart');
   }  
   return (
       <div className='itemDetail'>
